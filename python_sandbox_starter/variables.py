@@ -35,3 +35,12 @@ y = int(y)
 z = float(y)
 
 print(type(x), y, type(z), z)
+
+x = 'A'
+y = 'B'
+
+#swap variables
+x, y = (y, x)
+
+
+
