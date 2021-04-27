@@ -41,3 +41,11 @@ person.clear()
 
 #Get length
 print(len(person2))
+
+#List of dict
+people = [
+    {'name': 'Martha', 'age': 30},
+    {'name': 'Kevin', 'age': 25}
+]
+
+print(people[1]['name'])
