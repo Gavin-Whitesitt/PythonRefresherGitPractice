@@ -27,3 +27,12 @@ from camelcase import CamelCase
 
 c = CamelCase()
 print(c.hump('hello there world'))
+
+import validator
+from validator import validate_email
+
+email = 'test@test.com'
+if validate_email(email):
+    print('Email is valid')
+else:
+    print('Email is bad')
